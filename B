@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int myint;
+	long long my_long_long;
+	float myfloat;
+	double mydouble;
+	char mychar;
+
+	cin >> myint >> my_long_long >> mychar >> myfloat >> mydouble;
+
+	cout << myint << endl << my_long_long << endl << mychar << endl << myfloat << endl << mydouble << endl;
+
+	return 0;
+}
+ 
