@@ -1,0 +1,13 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+	int main()
+	{
+		double R;
+		cin >> R;
+		double  π = 3.141592653;
+		double Area = π * R * R;
+		cout << fixed << setprecision(9) << Area;
+		return 0;
+	}
