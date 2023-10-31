@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+	float A, B, Dividing;
+	cin >> A >> B;
+	Dividing = A / B;
+
+	cout << "floor " << A << ' ' << "/" << ' ' << B << ' ' << "=" << ' ' << floor(Dividing) << endl;
+	cout << "ceil " << A << ' ' << "/" << ' ' << B << ' ' << "=" << ' ' << ceil(Dividing) << endl;
+	cout << "round " << A << ' ' << "/" << ' ' << B << ' ' << "=" << ' ' << round(Dividing) << endl;
+
+	return 0;
+}
