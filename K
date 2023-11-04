@@ -1,0 +1,34 @@
+// بسم الله الرحمن الرحيم
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+#include <algorithm>
+#include <string>
+#include <numeric>
+#define ll long long
+#define ld long double
+#define ed '\n'
+#define fixed(x) fixed << setprecision(x)
+using namespace std;
+void AHMED()
+{ // for VS code
+  ios_base::sync_with_stdio(false);
+  cout.tie(nullptr);
+  cin.tie(nullptr);
+#ifndef ONLINE_JUDGE
+  freopen("input.txt", "r", stdin);
+  freopen("output.txt", "w", stdout);
+#endif
+}
+int main()
+{
+  AHMED();
+
+  int x, y, z;
+  cin >> x >> y >> z;
+  int min_num = min({x, y, z});
+  int max_num = max({x, y, z});
+  cout << min_num << ' ' << max_num;
+
+  return 0;
+}
