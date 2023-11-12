@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int X,R;
+	cin >> X;
+	R = X / 1000;
+	if (R%2==0)
+	{
+		cout << "EVEN";
+	}
+	else
+	{
+		cout << "ODD";
+	}
+	return 0;
+}
