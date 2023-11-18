@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	float N;
+	cin >> N;
+	int int_num = N;
+	double result = N - int_num;
+	if (result !=0)
+	{
+		cout << "float " << int_num << " " << result;
+	}
+	else
+	{
+		cout << "int " << int_num;
+	}
+	
+	return 0;
+}
