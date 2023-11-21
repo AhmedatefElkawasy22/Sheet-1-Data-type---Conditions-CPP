@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int A, B, C;
+	char op, eq;
+	cin >> A >> op >> B >> eq >> C;
+	if (op=='+')
+	{
+		if (A + B == C)
+		{
+			cout << "Yes";
+		}
+		else
+		{
+			cout << A + B;
+		}
+	}
+	if (op == '-')
+	{
+		if (A - B == C)
+		{
+			cout << "Yes";
+		}
+		else
+		{
+			cout << A - B;
+		}
+	}
+	if (op == '*')
+	{
+		if (A * B == C)
+		{
+			cout << "Yes";
+		}
+		else
+		{
+			cout << A * B;
+		}
+	}
+       
+	
+	return 0;
+
+}
