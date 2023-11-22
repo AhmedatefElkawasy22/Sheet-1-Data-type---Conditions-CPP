@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+  int l1, l2, r1, r2;
+	cin >> l1 >> r1 >> l2 >> r2;
+	int r3 = min(r1, r2);
+	int l3 = max(l1, l2);
+	if (l3 > r3)
+	{
+		cout << -1;
+	}
+	else
+	{
+		cout << l3 << ' ' << r3;
+	}
+
+	return 0;
+}
+
+ 
